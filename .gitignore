@@ -1,0 +1,19 @@
+.env
+.venv/
+__pycache__/
+*.py[cod]
+frontend/node_modules/
+frontend/dist/
+.DS_Store
+
+# Local data pack — never commit the database or product images
+data/campus_customs.db
+data/products/
+
+# Optional GitHub Pages/Jekyll output
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+/vendor
+Gemfile.lock
